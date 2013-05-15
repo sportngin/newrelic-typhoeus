@@ -1,6 +1,10 @@
 # Newrelic::Typhoeus
 
-TODO: Write a gem description
+NewRelic instrumentation for Typhoeus.  Currently instruments POST, GET, HEAD, DELETE, PUT, OPTIONS and PATCH 
+
+## Dependencies
+1. newrelic_rpm > 3.0
+2. typhoeus > 0.4.2
 
 ## Installation
 
@@ -15,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install newrelic-typhoeus
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
