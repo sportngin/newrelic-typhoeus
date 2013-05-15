@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Newrelic::Typhoeus::VERSION
 
   gem.add_runtime_dependency(%q<newrelic_rpm>, ["~> 3.0"])
-  gem.add_runtime_dependency(%q<typhoeus>, ["> 0.4.2"])
+  gem.add_runtime_dependency(%q<typhoeus>, [">= 0.4.2"])
 end
